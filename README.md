@@ -169,8 +169,7 @@ service cloud.firestore {
 1. In your terminal, make sure you're in the project directory
 2. Run:
    ```bash
-   cd functions
-   npm run deploy
+   firebase deploy --only functions 
    ```
 3. Wait for deployment to complete (usually takes 1-2 minutes)
 
